@@ -123,19 +123,19 @@ JavaScript では、幸いなことに CSS ほどの制限はありませんが�
 
 #### Concrete CMS に同梱されている jQuery 以外の jQuery に依存する
 
-[jQuery](http://jquery.com/) は非常に普及している JavaScript ライブラリで、多くのサイトやウェブアプリケーションで使われていますが、Concrete CMS も例外ではありません。実際、Concrete CMS の編集モードは jQuery に多くを依存しているため、jQuery の読み込みをやめると言うことはできません。そのため、ウェブページで使用するための JavaScript ファイルの方が譲歩する必要があります。まず、jQuery のバージョンは、[Concrete CMS に同梱されているもの](https://github.com/concretecms/concretecms/blob/develop/concrete/js/jquery.js)と同じにする必要があります。jQuery は現在バージョン3.xがリリースされていますが、Concrete CMS に同梱されているのはバージョン1.xです。
+[jQuery](http://jquery.com/) は非常に普及している JavaScript ライブラリで、多くのサイトやウェブアプリケーションで使われていますが、Concrete CMS も例外ではありません。実際、Concrete CMS の編集モードは jQuery に多くを依存しているため、jQuery の読み込みをやめると言うことはできません。そのため、ウェブページで使用するための JavaScript ファイルの方が譲歩する必要があります。まず、jQuery のバージョンは、[Concrete CMS に同梱されているもの](https://github.com/concretecms/concretecms/blob/develop/concrete/js/jquery.js)と同じにする必要があります。Concrete CMS バージョン9.2時点で同梱されている jQuery は 3.7.1 です。
 
 また、jQuery のバージョンを合わせているのに Concrete CMS が動かなくなると言うトラブルも起こりがちですが、この場合は Concrete CMS に同梱されている jQuery とは別に、重複して jQuery を読み込ませていることが原因です。Concrete CMS はその動作のために独自の jQuery プラグインを実装していますが、重複して jQuery を読み込ませることで、それらのプラグインが全てリセットされてしまうのです。
 
 #### Concrete CMS に同梱されている Bootstrap 以外の Bootstrap に依存する
 
-[Bootstrap](https://getbootstrap.com/) もレスポンシブデザインのウェブサイトではよく使われるライブラリです。Concrete CMS は[バージョン3.xの Bootstrap のライブラリのいくつかを使用しています](https://github.com/concretecms/concretecms/tree/develop/concrete/js/build/vendor/bootstrap)。
-Bootstrap は現在バージョン4.xがリリースされていますが、jQuery と同様に Concrete CMS に同梱されているバージョンに合わせる必要があります。
+[Bootstrap](https://getbootstrap.com/) もレスポンシブデザインのウェブサイトではよく使われるライブラリですが、Concrete CMS は[Bootstrap 5](https://github.com/concretecms/bedrock/blob/1f2c7273001b0f018945d23a631f6f5a44292af6/package.json#L21-L23)を同梱しています。
+jQuery と同様に Concrete CMS に同梱されているバージョンに合わせるのが望ましいです。
 
 #### その他のライブラリ
 
 そのほかにも Concrete CMS では様々な JavaScript ライブラリを利用していますが、編集モードでは使われないものや、利用される頻度の低いものが多いため、あまり問題にはなりません。
-気になる方はドキュメントの[アセットリスト](https://concrete5-japan.org/help/5-7/developer/appendix/asset-list/)をご確認ください。
+気になる方はドキュメントの[Included Libraries and Frameworks](https://documentation.concretecms.org/9-x/developers/security/php-vendor-libraries-and-framework-components)をご確認ください。
 
 ## Concrete CMS が出力するコードを知って活用しよう
 

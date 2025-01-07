@@ -1,12 +1,51 @@
 ---
 layout: page
-title: レイアウト
+title: レスポンシブデザイン
 ---
 
-## レイアウト機能の概要
+Concrete CMS には、レスポンシブデザインに対応する２つの機能が用意されています。
 
-Concrete CMS には編集モードでコンテンツ編集者がレイアウトを作成できる「レイアウト機能」があります。
-この機能のおかげで、エンジニアにテンプレートの新規開発を依頼することなく、コンテンツ編集者が自分でコンテンツに合わせてレイアウトを調整することができます。
+## コンテナー機能
+
+コンテナー機能は、デザイナーにページレイアウトの自由をもたらす重要な機能です。ブロックと同様にドラッグ＆ドロップでページ内に配置することができますが、ブロックではなく、ブロックを入れる器としての役割を果たします。
+
+![コンテナー機能の表示例](https://raw.githubusercontent.com/MacareuxDigital/concretecms-frontend-dev-best-practices/master/images/container.png)
+
+次に解説するレイアウト機能と違い、どんなレイアウトでも基本的に対応可能ですが、CSSも用意することが前提となっているため、エンジニアの工数がかかります。例えば、上に挙げた Atomik テーマの "Two Column Light" コンテナーのテンプレートファイルは下記のようになっています。
+
+```php
+<?php
+defined('C5_EXECUTE') or die("Access Denied.");
+
+use Concrete\Core\Area\ContainerArea;
+
+?>
+<div class="stripe two-column-stripe bg-light">
+    <div class="container">
+        <div class="row gx-xl-10">
+            <div class="col-md-6">
+                <?php
+                $area = new ContainerArea($container, 'Column 1');
+                $area->display($c);
+                ?>
+            </div>
+            <div class="col-md-6">
+                <?php
+                $area = new ContainerArea($container, 'Column 2');
+                $area->display($c);
+                ?>
+            </div>
+        </div>
+    </div>
+</div>
+```
+
+この例では Boostrap のクラスを使っていますが、これは必須ではなく、どんなHTMLでも自由に使うことができます。
+
+## レイアウト機能
+
+デザインの自由度は低いですが、編集者にとってはより柔軟でな「レイアウト機能」も用意されています。
+レイアウト機能は、エンジニアにテンプレートの新規開発を依頼することなく、コンテンツ編集者が自分でコンテンツに合わせてレイアウトを調整することができます。
 
 Concrete CMS のテーマを開発する際、デザイン上のレイアウトのバリエーションのうちの一部はレイアウト機能に期待することで、開発するテンプレートの数を減らすことができます。テンプレートの数を減らすことは、開発コストを下げるだけでなく、コンテンツ編集者が選択すべきテンプレートの選択肢も少なくなることで、使いやすさにつながります。
 
