@@ -3,7 +3,7 @@ layout: page
 title: ブロック一覧
 ---
 
-concrete5 に標準インストールされているブロックの一覧です。
+Concrete CMS に標準インストールされているブロックの一覧です。
 ブロックの概要を記載していますので、サイトの設計時に参考にしてください。
 
 また、ブロックが出力する HTML のサンプルを記載しています。
@@ -64,7 +64,7 @@ HTML / CSS コーディングの際に標準の出力結果に合わせること
 
 ```html
 <div class="ccm-block-file">
-    <a href="https://concrete5.test/index.php/download_file/18/218">リンク文字（任意）</a>
+    <a href="https://concretecms.text/index.php/download_file/18/218">リンク文字（任意）</a>
 </div>
 ```
 
@@ -101,22 +101,22 @@ HTML / CSS コーディングの際に標準の出力結果に合わせること
 
 ```html
 <ul class="nav">
-    <li class=""><a href="https://concrete5.test/index.php/services" target="_self" class="">Services</a></li>
-    <li class=""><a href="https://concrete5.test/index.php/portfolio" target="_self" class="">Portfolio</a></li>
-    <li class="nav-path-selected"><a href="https://concrete5.test/index.php/team" target="_self" class="nav-path-selected">Team</a>
+    <li class=""><a href="https://concretecms.text/index.php/services" target="_self" class="">Services</a></li>
+    <li class=""><a href="https://concretecms.text/index.php/portfolio" target="_self" class="">Portfolio</a></li>
+    <li class="nav-path-selected"><a href="https://concretecms.text/index.php/team" target="_self" class="nav-path-selected">Team</a>
         <ul>
-            <li class="nav-selected nav-path-selected"><a href="https://concrete5.test/index.php/team/about" target="_self" class="nav-selected nav-path-selected">About</a></li>
-            <li class=""><a href="https://concrete5.test/index.php/team/faq" target="_self" class="">Frequently Asked Questions</a></li>
-            <li class=""><a href="https://concrete5.test/index.php/team/careers" target="_self" class="">Careers</a>
+            <li class="nav-selected nav-path-selected"><a href="https://concretecms.text/index.php/team/about" target="_self" class="nav-selected nav-path-selected">About</a></li>
+            <li class=""><a href="https://concretecms.text/index.php/team/faq" target="_self" class="">Frequently Asked Questions</a></li>
+            <li class=""><a href="https://concretecms.text/index.php/team/careers" target="_self" class="">Careers</a>
                 <ul>
-                    <li class=""><a href="https://concrete5.test/index.php/team/careers/web-developer" target="_self" class="">Web Developer</a></li>
-                    <li class=""><a href="https://concrete5.test/index.php/team/careers/sales-associate" target="_self" class="">Sales Associate</a></li>
+                    <li class=""><a href="https://concretecms.text/index.php/team/careers/web-developer" target="_self" class="">Web Developer</a></li>
+                    <li class=""><a href="https://concretecms.text/index.php/team/careers/sales-associate" target="_self" class="">Sales Associate</a></li>
                 </ul>
             </li>
         </ul>
     </li>
-    <li class=""><a href="https://concrete5.test/index.php/blog" target="_self" class="">Blog</a></li>
-    <li class=""><a href="https://concrete5.test/index.php/contact" target="_self" class="">Contact</a></li>
+    <li class=""><a href="https://concretecms.text/index.php/blog" target="_self" class="">Blog</a></li>
+    <li class=""><a href="https://concretecms.text/index.php/contact" target="_self" class="">Contact</a></li>
 </ul>
 ```
 
@@ -175,7 +175,7 @@ class 属性値はカスタムテンプレートで変更できます。
         <div class="ccm-block-page-list-page-entry">
             <div class="ccm-block-page-list-page-entry-text">
                 <div class="ccm-block-page-list-title">
-                    <a href="https://concrete5.test/index.php/218" target="_self">ページ名</a>
+                    <a href="https://concretecms.text/index.php/218" target="_self">ページ名</a>
                 </div>
                 <div class="ccm-block-page-list-date">2018/05/06 13:12</div>
                 <div class="ccm-block-page-list-description">説明文</div>
@@ -187,7 +187,7 @@ class 属性値はカスタムテンプレートで変更できます。
             </div>
             <div class="ccm-block-page-list-page-entry-text">
                 <div class="ccm-block-page-list-title">
-                    <a href="https://concrete5.test/index.php/blog/209" target="_self">サムネイル画像あり</a>
+                    <a href="https://concretecms.text/index.php/blog/209" target="_self">サムネイル画像あり</a>
                 </div>
                 <div class="ccm-block-page-list-date">2018/04/11 13:56</div>
                 <div class="ccm-block-page-list-description"></div>
@@ -234,16 +234,16 @@ class 属性値はカスタムテンプレートで変更できます。
         <h5>前</h5>
     </div>
     <p class="ccm-block-next-previous-previous-link">
-        <a href="https://concrete5.test/index.php/contact">Contact</a>
+        <a href="https://concretecms.text/index.php/contact">Contact</a>
     </p>
     <div class="ccm-block-next-previous-header">
         <h5>次</h5>
     </div>
     <p class="ccm-block-next-previous-next-link">
-        <a href="https://concrete5.test/index.php/services">Services</a>
+        <a href="https://concretecms.text/index.php/services">Services</a>
     </p>
     <p class="ccm-block-next-previous-parent-link">
-        <a href="https://concrete5.test/index.php">上へ</a>
+        <a href="https://concretecms.text/index.php">上へ</a>
     </p>
 </div>
 ```
@@ -260,10 +260,10 @@ class 属性値はカスタムテンプレートで変更できます。
         <h5>アーカイブ</h5>
     </div>
     <ul class="ccm-block-date-navigation-dates">
-        <li><a href="https://concrete5.test/index.php/218">すべて</a></li>
-        <li><a href="https://concrete5.test/index.php/218/2018/04">4月 2018</a></li>
-        <li><a href="https://concrete5.test/index.php/218/2014/08">8月 2014</a></li>
-        <li><a href="https://concrete5.test/index.php/218/2014/07">7月 2014</a></li>
+        <li><a href="https://concretecms.text/index.php/218">すべて</a></li>
+        <li><a href="https://concretecms.text/index.php/218/2018/04">4月 2018</a></li>
+        <li><a href="https://concretecms.text/index.php/218/2014/08">8月 2014</a></li>
+        <li><a href="https://concretecms.text/index.php/218/2014/07">7月 2014</a></li>
     </ul>
 </div>
 ```
@@ -297,15 +297,15 @@ class 属性値はカスタムテンプレートで変更できます。
     <ul class="ccm-block-topic-list-list">
         <li>レビュー
             <ul class="ccm-block-topic-list-list">
-                <li><a href="https://concrete5.test/index.php/218/topic/26/gadgets" class="ccm-block-topic-list-topic-selected">ガジェット</a></li>
-                <li><a href="https://concrete5.test/index.php/218/topic/27/movies">映画</a></li>
-                <li><a href="https://concrete5.test/index.php/218/topic/28/books">本</a></li>
-                <li><a href="https://concrete5.test/index.php/218/topic/29/music">ミュージック</a></li>
+                <li><a href="https://concretecms.text/index.php/218/topic/26/gadgets" class="ccm-block-topic-list-topic-selected">ガジェット</a></li>
+                <li><a href="https://concretecms.text/index.php/218/topic/27/movies">映画</a></li>
+                <li><a href="https://concretecms.text/index.php/218/topic/28/books">本</a></li>
+                <li><a href="https://concretecms.text/index.php/218/topic/29/music">ミュージック</a></li>
             </ul>
         </li>
-        <li><a href="https://concrete5.test/index.php/218/topic/30/projects">プロジェクト</a></li>
-        <li><a href="https://concrete5.test/index.php/218/topic/31/sports">スポーツ</a></li>
-        <li><a href="https://concrete5.test/index.php/218/topic/32/humor">ユーモア</a></li>
+        <li><a href="https://concretecms.text/index.php/218/topic/30/projects">プロジェクト</a></li>
+        <li><a href="https://concretecms.text/index.php/218/topic/31/sports">スポーツ</a></li>
+        <li><a href="https://concretecms.text/index.php/218/topic/32/humor">ユーモア</a></li>
     </ul>
 </div>
 ```
@@ -355,7 +355,7 @@ RSS フィードの内容はデータベースに取り込まれるわけでは�
 <div class="ccm-block-switch-language">
     <form method="post" class="form-inline">
         ラベル（任意）
-        <select id="language" name="language" data-select="multilingual-switch-language" data-action="https://concrete5.test/index.php/218/switch_language/218/--language--/206" ccm-passed-value="1" class="form-control">
+        <select id="language" name="language" data-select="multilingual-switch-language" data-action="https://concretecms.text/index.php/218/switch_language/218/--language--/206" ccm-passed-value="1" class="form-control">
             <option value="1" selected="selected">日本語</option>
             <option value="219">English</option>
         </select>
@@ -367,13 +367,13 @@ RSS フィードの内容はデータベースに取り込まれるわけでは�
 
 フォームを設置できるブロックです。回答結果はデータベースに保管され、管理画面から確認でき、CSV に出力できます。
 様々な入力フィールドの種類がありますので、それぞれの出力結果は実際に設定してみてご確認ください。
-[フォームのカスタマイズ方法](https://documentation.concrete5.org/developers/express/express-forms-controllers/form-theming/using-contexts-to-customize-form-and-attribute-markup)は少し複雑ですので、出力されるマークアップに合わせてスタイルシートをコーディングする方が無難です。
+[フォームのカスタマイズ方法](https://documentation.concretecms.org/developers/express/express-forms-controllers/form-theming/using-contexts-to-customize-form-and-attribute-markup)は少し複雑ですので、出力されるマークアップに合わせてスタイルシートをコーディングする方が無難です。
 
 ```html
 <div class="ccm-block-express-form">
     <div class="ccm-form">
         <a name="form207"></a>
-        <form enctype="multipart/form-data" class="form-stacked" method="post" action="https://concrete5.test/index.php/218/submit/207#form207">
+        <form enctype="multipart/form-data" class="form-stacked" method="post" action="https://concretecms.text/index.php/218/submit/207#form207">
             <input type="hidden" name="express_form_id" value="93f430a4-50f4-11e8-982a-a8667f39691c">
             <input type="hidden" name="ccm_token" value="1525597795:12f0f46cca74960031a5e4c70a371b58" />
             <div class="ccm-dashboard-express-form">
@@ -400,7 +400,7 @@ RSS フィードの内容はデータベースに取り込まれるわけでは�
 ### 出力
 
 ```html
-<form action="https://concrete5.test/index.php/218" method="get" class="ccm-search-block-form">
+<form action="https://concretecms.text/index.php/218" method="get" class="ccm-search-block-form">
     <h3>タイトル（任意）</h3>
     <input name="search_paths[]" type="hidden" value="" />
     <input name="query" type="text" value="" class="ccm-search-block-text" />
@@ -424,7 +424,7 @@ RSS フィードの内容はデータベースに取り込まれるわけでは�
     <div id="surveyQuestion" class="form-group">
         質問（任意）
     </div>
-    <form method="post" action="https://concrete5.test/index.php/218/form_save_vote/209">
+    <form method="post" action="https://concretecms.text/index.php/218/form_save_vote/209">
         <input type="hidden" name="rcID" value="218"/>
         <div class="radio">
             <label>
@@ -506,12 +506,12 @@ SNS アカウントへのリンクをアイコンで表示できるブロック�
 <div id="ccm-block-social-links210" class="ccm-block-social-links">
     <ul class="list-inline">
         <li>
-            <a target="_blank" href="http://facebook.com/concrete5" aria-label="Facebook">
+            <a target="_blank" href="http://facebook.com/Concrete CMS" aria-label="Facebook">
                 <i class="fa fa-facebook" aria-hidden="true" title="Facebook"></i>
             </a>
         </li>
         <li>
-            <a target="_blank" href="http://twitter.com/concrete5" aria-label="Twitter">
+            <a target="_blank" href="http://twitter.com/Concrete CMS" aria-label="Twitter">
                 <i class="fa fa-twitter" aria-hidden="true" title="Twitter"></i>
             </a>
         </li>
@@ -704,7 +704,7 @@ JavaScript ライブラリの [ResponsiveSlides.js](http://responsiveslides.com/
 ```html
 <h2>テーブル名（任意）</h2>
 <p>テーブル説明（任意）</p>
-<form method="get" action="https://concrete5.test/index.php/218">
+<form method="get" action="https://concretecms.text/index.php/218">
     <div class="form-inline">
         <div class="form-group">
             <label for="keywords" class="control-label">キーワード検索</label>
@@ -941,7 +941,7 @@ JavaScript ライブラリの [ResponsiveSlides.js](http://responsiveslides.com/
     </div>
     <br/>
 </form>
-<div data-document-library-upload-action="https://concrete5.test/index.php/218/upload/219" data-document-library-add-files="219" class="ccm-block-document-library-add-files-uploader">
+<div data-document-library-upload-action="https://concretecms.text/index.php/218/upload/219" data-document-library-add-files="219" class="ccm-block-document-library-add-files-uploader">
     <div class="ccm-block-document-library-add-files-pending">ファイルをアップロード</div>
     <div class="ccm-block-document-library-add-files-uploading">アップロード中 <i class="fa fa-spin fa-spinner"></i></div>
     <input type="file" name="file" />
@@ -957,30 +957,30 @@ JavaScript ライブラリの [ResponsiveSlides.js](http://responsiveslides.com/
                     <span>サムネイル</span>
                 </th>
                 <th class="ccm-block-document-library-column-title ccm-block-document-library-column-sortable">
-                    <a href="https://concrete5.test/index.php/218?sort=title&dir=asc">タイトル</a>
+                    <a href="https://concretecms.text/index.php/218?sort=title&dir=asc">タイトル</a>
                 </th>
                 <th class="ccm-block-document-library-column-filename ccm-block-document-library-column-sortable">
-                    <a href="https://concrete5.test/index.php/218?sort=filename&dir=asc">ファイル名</a>
+                    <a href="https://concretecms.text/index.php/218?sort=filename&dir=asc">ファイル名</a>
                 </th>
                 <th class="ccm-block-document-library-column-date ccm-block-document-library-column-sortable ccm-block-document-library-active-sort-desc">
-                    <a href="https://concrete5.test/index.php/218?sort=date&dir=asc">作成日時</a>
+                    <a href="https://concretecms.text/index.php/218?sort=date&dir=asc">作成日時</a>
                 </th>
                 <th class="ccm-block-document-library-column-size ccm-block-document-library-column-sortable">
-                    <a href="https://concrete5.test/index.php/218?sort=size&dir=asc">サイズ</a>
+                    <a href="https://concretecms.text/index.php/218?sort=size&dir=asc">サイズ</a>
                 </th>
             </tr>
         </thead>
         <tbody>
             <tr class="ccm-block-document-library-row-a">
                 <td><img src="/concrete/images/icons/filetypes/ogg.svg" width="60" height="60" class="img-responsive ccm-generic-thumbnail" alt="OGG file icon"></td>
-                <td><a href="https://concrete5.test/index.php/download_file/21/218">file_example.ogg</a></td>
+                <td><a href="https://concretecms.text/index.php/download_file/21/218">file_example.ogg</a></td>
                 <td>file_example.ogg</td>
                 <td>2018/05/06</td>
                 <td>1,694.26 KB</td>
             </tr>
             <tr class="ccm-block-document-library-row-b">
                 <td><img src="/concrete/images/icons/filetypes/mp4.svg" width="60" height="60" class="img-responsive ccm-generic-thumbnail" alt="MP4 file icon"></td>
-                <td><a href="https://concrete5.test/index.php/download_file/20/218">file_example.mp4</a></td>
+                <td><a href="https://concretecms.text/index.php/download_file/20/218">file_example.mp4</a></td>
                 <td>file_example.mp4</td>
                 <td>2018/05/06</td>
                 <td>1,533.23 KB</td>

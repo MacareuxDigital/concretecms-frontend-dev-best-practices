@@ -1,6 +1,6 @@
-title: concrete5 テーマ開発のベストプラクティス＆バッドプラクティス
-author: コンクリートファイブジャパン株式会社
-email: info@concrete5.co.jp
+title: Concrete CMS テーマ開発のベストプラクティス＆バッドプラクティス
+author: 株式会社マカルーデジタル
+email: info@macareux.co.jp
 theme: minima
 header_pages:
   - index.md

@@ -91,13 +91,13 @@ CMS で更新されることを考慮すれば、スタイルシートの設計�
 </table>
 ```
 
-## concrete5 のテーマの影響
+## Concrete CMS のテーマの影響
 
-エディタの機能は concrete5 の機能として用意されているものですが、デザインの都合に合わせて、テーマからいくつかのカスタマイズが可能です。
+エディタの機能は Concrete CMS の機能として用意されているものですが、デザインの都合に合わせて、テーマからいくつかのカスタマイズが可能です。
 
 ### レスポンシブ画像
 
-ひとつの HTML でデスクトップの大きな画面からスマートフォンの小さな画面まで対応するレスポンシブデザインでは、レイアウトはスタイルシートで調整できますが、大きなデスクトップ用の画像を回線の遅いスマートフォンにも配信してしまう問題があります。これを解決するのが、HTML5 で追加された [`<picture>` 要素](https://developer.mozilla.org/ja/docs/Web/HTML/Element/picture)です。このレスポンシブ画像を使うと、画面サイズに応じて画像ファイルを出し分けることができます。レスポンシブ画像は、テーマ内の `page_theme.php` ファイルで、[レスポンシブ画像用の設定を行う](https://concrete5-japan.org/help/5-7/developer/designing-for-concrete5/supporting-responsive-images-in-your-concrete5-theme/)ことで有効にできます。エディタで挿入した画像は、このテーマの設定によって出力が変化します。
+ひとつの HTML でデスクトップの大きな画面からスマートフォンの小さな画面まで対応するレスポンシブデザインでは、レイアウトはスタイルシートで調整できますが、大きなデスクトップ用の画像を回線の遅いスマートフォンにも配信してしまう問題があります。これを解決するのが、HTML5 で追加された [`<picture>` 要素](https://developer.mozilla.org/ja/docs/Web/HTML/Element/picture)です。このレスポンシブ画像を使うと、画面サイズに応じて画像ファイルを出し分けることができます。レスポンシブ画像は、テーマ内の `page_theme.php` ファイルで、[レスポンシブ画像用の設定を行う](https://concrete5-japan.org/help/5-7/developer/designing-for-Concrete CMS/supporting-responsive-images-in-your-Concrete CMS-theme/)ことで有効にできます。エディタで挿入した画像は、このテーマの設定によって出力が変化します。
 
 テーマがレスポンシブ画像をサポートしている場合：
 
@@ -210,6 +210,6 @@ CMS で更新されることを考慮すれば、スタイルシートの設計�
 
 エディタで挿入される要素に class 属性を設定するのは避けた方が良いと冒頭で紹介しましたが、とはいえデザイン上のバリエーションを持たせるために、どうしても必要な場合もあります。そのような場合に、エディタの「スタイル」メニューから選択させるという機能を使うことができます。
 
-![スタイルメニューの例](https://raw.githubusercontent.com/concrete5cojp/Best-Practices-concrete5-Template-Development/master/images/editor-class.png)
+![スタイルメニューの例](https://raw.githubusercontent.com/MacareuxDigital/concretecms-frontend-dev-best-practices/master/images/editor-class.png)
 
 詳しくは、[エディタークラスのドキュメント](https://concrete5-japan.org/help/5-7/developer/designing-for-concrete5/advanced-css-and-javascript-usage/adding-custom-css-classes-to-blocks-areas-and-the-editor/#editor-class)をご参照ください。
